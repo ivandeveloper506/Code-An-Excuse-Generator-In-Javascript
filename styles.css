@@ -1,0 +1,104 @@
+/*******************************************************************************/
+/* Fecha Creación: 07 Febrero 2021.                                            */
+/* Autor:          Iván Fonseca Castro                                         */
+/*                                                                             */
+/* Descripción:    Hoja principal de estilos, permite personalizar los estilos */
+/*                 a utilizar en los componentes del sitio Web.                */
+/*******************************************************************************/
+
+body{
+    background: rgb(13, 8, 59);
+}
+
+.mainContainer{
+    margin: 20px 185px 0 185px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+.mainReasonContainer{
+    margin: 20px 185px 0 185px;
+    font-weight: 700;
+}
+
+.mainTitle{
+    display: flex;
+    justify-content: center;
+    background: rgb(220,220,220);
+    border-radius: 7px 7px 0px 0px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    box-shadow: inset 0 0 25px 0 rgb(107, 107, 107);
+}
+
+.mainText{
+    display: flex;
+    padding: 10px;
+    height: 145px;
+    text-align: center;
+    background: yellow;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    margin: 1px;
+    background: rgb(230,229,240);
+	border: 5px outset rgb(119, 116, 155);
+	color: rgb(40,34,104);
+	text-align: center;
+	text-shadow: -1px -1px rgba(0,0,0,0.2);
+}
+
+h1 {text-align: left; 
+    color: green; 
+    text-shadow: 0px 0px 9px greenyellow;
+}
+
+.buttonGenerate{
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.rowCard{
+    padding: 0px 1px 0px 5px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+.card-title{
+    text-align: center;
+    color:rgb(13, 8, 59);
+}
+
+
+.card{
+    border-radius: 7px;
+    background: white;
+}
+
+.mainRow{
+    color: white;
+}
+
+.playReason{
+    color: yellowgreen;
+}
+
+.playReason:hover {
+    color: rgb(119, 158, 40);
+}
+
+.pageLoad{
+    color:rgb(236, 87, 87);
+}
+
+.pageLoad:hover {
+    color: red;
+}
+
+
+
+
+.tooltip-inner {
+    background: white;
+    color: rgb(13, 8, 59);
+}
